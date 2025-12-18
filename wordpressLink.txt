@@ -1,0 +1,21 @@
+https://californiawebcoders.com/api/revalidate
+
+🟢 New blog publish
+
+{
+  "secret": "super-secret-token",
+  "slug": "how-to-use-nextjs-isr",
+  "categorySlug": "react"
+}
+
+🟢 Blog update (same slug)
+{
+  "secret": "super-secret-token",
+  "slug": "how-to-use-nextjs-isr"
+}
+
+🟢 Category page only
+{
+  "secret": "super-secret-token",
+  "categorySlug": "javascript"
+}

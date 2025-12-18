@@ -1,0 +1,3 @@
+{
+  "cacheHandler": "next/cache-handler-redis"
+}

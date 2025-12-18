@@ -1,0 +1,58 @@
+.Creativitythrough {
+  background-color: #ffffff;
+  padding: 60px 0;
+  overflow: hidden;
+}
+h1 span {
+  color: #1f5591;
+}
+.Creativitythrough .title {
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 1;
+}
+.Creativitythrough .title span {
+  color: #0504a5;
+}
+.Creativitythrough .intouch {
+  background-color: #0504a5;
+  color: white;
+  font-size: 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  display: inline-block;
+  /* border: 1px solid #0504a5; */
+  transition: all .25s ease;
+}
+.Creativitythrough .intouch:hover{
+  background-color: #f9c74f;
+  /* border: 1px solid #0504a5; */
+  color: #0504a5;
+}
+
+.Creativitythrough .para {
+  color: #707070;
+  font-size: 17px;
+}
+
+@media (max-width: 1199px) {
+  .Creativitythrough .title {
+    font-size: 39px;
+  }
+  .Creativitythrough .para {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  .Creativitythrough-row {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .Creativitythrough {
+    padding: 30px 0;
+  }
+}

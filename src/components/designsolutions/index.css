@@ -1,0 +1,140 @@
+.body {
+  font-family: "Outfit", sans-serif !important;
+}
+
+.Designsolutions {
+  margin: 60px 0px !important;
+}
+
+.Designsolutions .para {
+  color: #031243;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.Designsolutions .title {
+  font-size: 54px;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.Designsolutions .title span {
+  color: #0504a5;
+  font-weight: 500;
+}
+
+.Designsolutions .para2 {
+  font-weight: 400;
+  color: #031243;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.Designsolutions .para2 span {
+  color: #0504a5;
+}
+
+.Designsolutions .paratitle {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.Designsolutions .freecons {
+  border: none;
+  color: white;
+  background-color: #0504a5;
+  padding: 10px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 2px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.Designsolutions .freecons:hover {
+  background-color: #f9c74f;
+  color: #0504a5;
+}
+
+.Designsolutions .solution {
+  padding: 20px 16px;
+  background-color: #0504a5;
+  height: auto;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.Designsolutions .solution span {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.Designsolutions .para3 {
+  color: white;
+  font-size: 16px;
+  line-height: 1.3;
+  margin: 0;
+}
+.Designsolutions .solution-heading {
+    font-size: 24px;
+  }
+
+@media (max-width: 1399px) {
+  .Designsolutions .title {
+    font-size: 58px;
+  }
+  
+}
+
+@media (max-width: 1199px) {
+  .Designsolutions .solution-heading {
+    font-size: 21px;
+  }
+  .Designsolutions .para3 {
+    font-size: 15px;
+  }
+  .Designsolutions .para2 {
+    font-size: 16px;
+  }
+  .Designsolutions .title {
+    font-size: 49px;
+  }
+}
+
+@media (max-width: 991px) {
+  .Designsolutions {
+    margin: 30px 0px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .Designsolutions .title {
+    font-size: 43px;
+  }
+  .Designsolutions .solution {
+    padding: 16px 10px;
+    gap: 5px;
+  }
+  .Designsolutions .solution-heading {
+    font-size: 19px;
+  }
+  .Designsolutions .para3 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 430px) {
+  .Designsolutions .title {
+    font-size: 36px;
+  }
+  .Designsolutions .solution-heading {
+    font-size: 17px;
+  }
+}

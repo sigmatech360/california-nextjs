@@ -1,0 +1,139 @@
+/* .FrequentQuestions {
+  background: transparent linear-gradient(0deg, #f5f5f5 0%, #d4d4ff 100%) 0% 0%
+    no-repeat padding-box;
+  border-radius: 0px 0px 80px 80px;
+  opacity: 1;
+}
+
+.homeFrequentQuestionspara {
+  color: #0504a5;
+}
+
+.homeFrequentQuestionspara2 {
+  color: black;
+  font-size: 43px;
+  line-height: 43px;
+  font-weight: 500;
+}
+
+.everythingtitle {
+  font-weight: 300;
+  font-family: "Outfit";
+  font-size: 28px;
+  max-width: 60%;
+}
+
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  color: var(--bs-progress-bar-color);
+  text-align: center;
+  white-space: nowrap;
+  background-color: #0504a5;
+  transition: var(--bs-progress-bar-transition);
+}
+
+.everythingpara {
+  font-weight: 300;
+  font-family: "Outfit";
+  font-size: 16px;
+}
+
+.feeleverything {
+  background-color: #031243;
+  color: white;
+  padding: 37px 35px !important;
+  border-radius: 30px;
+}
+
+
+.tab-nav {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.tab-item {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #222;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.tab-item.active {
+  color: #1f5591;
+}
+
+.tab-item.active::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #1f5591;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+
+.faq-section {
+  margin-top: 20px;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+.faq-question {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #1f5591;
+}
+
+.icon {
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.icon.open {
+  transform: rotate(45deg);
+  color: #1f5591;
+}
+
+.faq-answer {
+  margin-top: 10px;
+  color: #555;
+}
+
+.industrytab {
+  margin-top: 85px;
+}
+
+.frequentlysmartcard {
+  background-color: #0504a5 !important;
+}
+
+.smart {
+  background: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  margin: auto; 
+}
+
+.smartcard {
+  width: 60%; 
+  height: auto; 
+} */
+
+

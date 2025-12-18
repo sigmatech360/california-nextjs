@@ -1,0 +1,116 @@
+.LogoDesignServices {
+  padding: 60px 0px;
+  overflow: hidden;
+  background: transparent linear-gradient(180deg, #f5f5f5 0%, #d4d4ff 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 152px 152px 0px 0px;
+  opacity: 1;
+}
+
+.logodesignimg {
+  max-width: 111%;
+  height: auto;
+}
+
+.LogoDesignServices .title {
+  font-size: 51px;
+  font-weight: 500;
+
+  line-height: 55px;
+  font-family: "Outfit", sans-serif !important;
+}
+
+.LogoDesignServices .title span {
+  color: #0504a5;
+}
+.LogoDesignServices .para {
+  letter-spacing: 0px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #0504a5;
+  font-family: "Outfit", sans-serif !important;
+}
+
+.LogoDesignServices .featuredbtn {
+  color: white;
+  border: none;
+  background-color: #0504a5;
+  padding: 10px 29px;
+  border-radius: 30px;
+}
+
+.LogoDesignServices .viewdbtn {
+  color: white;
+
+  width: 14%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border: none;
+  background-color: #0504a5;
+  padding: 10px 29px;
+  border-radius: 30px;
+}
+
+.LogoDesignServices .projectpara {
+  font-size: 18px;
+  line-height: 20px;
+  color: #031243;
+}
+
+.LogoDesignServices .para2 {
+  font-weight: 400;
+  color: #031243;
+  font-weight: 500;
+}
+
+.LogoDesignServices .para3 {
+  font-weight: 400;
+  color: #031243;
+  font-weight: 500;
+}
+
+.LogoDesignServices .LogoDesignServicesimg {
+  padding-bottom: 20px;
+}
+
+@media (max-width: 1399px) {
+  .LogoDesignServices .LogoDesignServicesimg {
+    padding-bottom: 0;
+  }
+  .LogoDesignServices .title {
+    font-size: 43px;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 1199px) {
+  .LogoDesignServices .title {
+    font-size: 35px;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 991px) {
+  .logoServiceCol-2 {
+    order: -1;
+  }
+  
+  .logoServiceCol-2 .LogoDesignServicesimg {
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto 40px;
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .LogoDesignServices{
+    padding: 40px 0;
+  }
+  .LogoDesignServices .title {
+    font-size: 25px;
+    line-height: 1;
+  }
+}

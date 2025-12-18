@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="124" height="124" viewBox="0 0 124 124">
+  <g id="Group_14123" data-name="Group 14123" transform="translate(-266 -1868)">
+    <circle id="Ellipse_10" data-name="Ellipse 10" cx="62" cy="62" r="62" transform="translate(266 1868)" fill="#0504a5"/>
+    <g id="Group_34293" data-name="Group 34293" transform="translate(288 1889)">
+      <path id="Path_2001" data-name="Path 2001" d="M32.908,54A3.908,3.908,0,1,1,29,57.908,3.909,3.909,0,0,1,32.908,54Z" transform="translate(6.658 14.83)" fill="#fff" fill-rule="evenodd"/>
+      <path id="Path_2002" data-name="Path 2002" d="M18.908,54A3.908,3.908,0,1,1,15,57.908,3.909,3.909,0,0,1,18.908,54Z" transform="translate(2.421 14.83)" fill="#fff" fill-rule="evenodd"/>
+      <path id="Path_2003" data-name="Path 2003" d="M46.908,54a3.908,3.908,0,1,0,3.908,3.908A3.909,3.909,0,0,0,46.908,54Z" transform="translate(10.896 14.83)" fill="#fff" fill-rule="evenodd"/>
+      <path id="Path_2004" data-name="Path 2004" d="M31,39.3a1.3,1.3,0,0,1,2.605,0v19.54a1.3,1.3,0,1,1-2.605,0Z" transform="translate(7.264 9.988)" fill="#fff" fill-rule="evenodd"/>
+      <path id="Path_2005" data-name="Path 2005" d="M24.816,39.3a1.3,1.3,0,1,1,2.605,0v9.119a1.3,1.3,0,0,1-.72,1.165l-7.1,3.548v5.708a1.3,1.3,0,1,1-2.605,0V52.329a1.3,1.3,0,0,1,.72-1.165l7.1-3.548Z" transform="translate(3.027 9.988)" fill="#fff" fill-rule="evenodd"/>
+      <path id="Path_2006" data-name="Path 2006" d="M39,39.3a1.3,1.3,0,1,1,2.605,0v8.314l7.1,3.548a1.3,1.3,0,0,1,.72,1.165v6.513a1.3,1.3,0,1,1-2.605,0V53.134l-7.1-3.548A1.3,1.3,0,0,1,39,48.421Z" transform="translate(9.685 9.988)" fill="#fff" fill-rule="evenodd"/>
+      <path id="Path_2007" data-name="Path 2007" d="M53.8,22.362a1.3,1.3,0,0,0,1.66,1.393A13.028,13.028,0,1,1,59.106,49.29H18.724a11.724,11.724,0,1,1,2.84-23.1A1.3,1.3,0,0,0,23.14,24.6,15.633,15.633,0,1,1,53.9,20.632a15.8,15.8,0,0,1-.1,1.73ZM51.29,29.75V42.777a1.3,1.3,0,1,0,2.605,0V29.75a1.3,1.3,0,1,0-2.605,0ZM25.237,42.777a1.3,1.3,0,1,0,2.605,0V38.869h5.211v3.908a1.3,1.3,0,1,0,2.605,0V34.961a1.3,1.3,0,0,0-.261-.782L31.49,28.969a1.3,1.3,0,0,0-2.084,0L25.5,34.18a1.3,1.3,0,0,0-.261.782Zm15.632-5.211h6.513a1.3,1.3,0,0,0,1.3-1.3V29.75a1.3,1.3,0,0,0-1.3-1.3H39.566a1.3,1.3,0,0,0-1.3,1.3V42.777a1.3,1.3,0,0,0,2.605,0Z" transform="translate(0)" fill="#fff" fill-rule="evenodd"/>
+      <path id="Path_2008" data-name="Path 2008" d="M33,25h5.211v3.908H33Z" transform="translate(7.869 6.053)" fill="#fff" fill-rule="evenodd"/>
+      <path id="Path_2009" data-name="Path 2009" d="M28.211,30.009H23V29.14l2.605-3.473,2.605,3.473Z" transform="translate(4.843 6.255)" fill="#fff" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

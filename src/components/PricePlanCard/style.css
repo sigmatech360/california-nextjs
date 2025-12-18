@@ -1,0 +1,135 @@
+.price-plan-card {
+  border-radius: 16px;
+  padding: 30px 30px;
+  background-color: #f3f3f6 !important;
+  border: 2px solid #0504a5;
+}
+
+.price-plane-head-title {
+  color: #031243;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.1;
+  margin-bottom: 11px;
+  /* max-width: 270px; */
+}
+
+.price-card-discount {
+  /* color: #707070; */
+  color: #333333;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 13px;
+}
+.price-card-discount span {
+  text-decoration: line-through;
+}
+
+.price-plane-price {
+  font-size: 43px;
+  color: #0504a5;
+  font-weight: 700;
+}
+
+.price-plan-list-section {
+  height: 230px;
+  overflow-y: auto;
+  margin: 25px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+h6.price-plan-section-title {
+  color: #031243;
+  font-weight: 600;
+  /* font-size: 22px; */
+  font-size: 18px;
+  line-height: 1.1;
+  margin-bottom: 11px;
+}
+
+.price-plan-list {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.price-plan-list-item.disabled .price-plan-list-icon {
+  color: #828282;
+}
+
+.price-plan-list-item.disabled p {
+  color: #828282;
+}
+
+/* Scroll container */
+
+.price-plan-list-item {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+.price-plan-list-item * {
+  margin: 0;
+}
+.price-plan-list-icon {
+  line-height: 1;
+  color: #0504a5;
+  font-size: 20px;
+}
+.price-plan-list-item p {
+  /* font-size: 21px; */
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.price-card-footer {
+  margin: 16px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.price-card-footer * {
+  margin: 0;
+}
+
+.price-card-num {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.price-card-btn {
+  color: white;
+  background-color: #0504a5;
+  border-radius: 45px;
+  padding: 10px 30px;
+  border: none;
+  font-size: 16px;
+  transition: all 0.25s ease;
+}
+.price-card-btn:hover {
+  background-color: #f9c74f;
+  color: #0504a5;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media (max-width: 1199px) {
+  .price-plan-card {
+    padding: 16px;
+  }
+  .price-plan-list-item p {
+    font-size: 15px;
+  }
+  .price-plan-list-item p {
+    font-size: 17px;
+  }
+  .price-card-num {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 430px) {
+  .price-plane-price {
+    font-size: 35px;
+  }
+}

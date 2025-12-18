@@ -1,0 +1,117 @@
+.formModal-sec .modal-content {
+  background: transparent linear-gradient(210deg, #0504a5 0%, #b0b0e5 100%)
+    no-repeat 0% 0% padding-box;
+}
+.formModal-content {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 16px; */
+}
+.formModal-imgDiv {
+  flex: 0 0 450px;
+}
+
+.formModal-formContent-head h3 {
+  color: #fff;
+  line-height: 1;
+  font-size: 32px;
+}
+
+.formModal-formContent-head {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+  margin-bottom: 16px;
+}
+.formModal-content form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.formModal-sec .modal-body {
+  padding: 0;
+  position: relative;
+  padding-top: 40px;
+  overflow: hidden;
+}
+
+.formModal-formContent {
+  flex-grow: 1;
+  padding: 16px;
+  position: relative;
+  z-index: 3;
+}
+
+.formModal-sec .modal-header {
+  padding: 0;
+}
+
+.formModal-sec .modal-header .btn-close {
+  position: absolute;
+  /* background-color: #fff; */
+  opacity: 1;
+  width: 40px;
+  height: 40px;
+  top: 0;
+  right: 0;
+  margin: 0;
+  z-index: 2;
+  border-radius: 50%;
+  padding: 0;
+  background-color: transparent;
+  color: #fff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3E%3Cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3E%3C/svg%3E");
+}
+.formModal-sec .modal-header .btn-close:focus{
+  box-shadow: unset;
+}
+
+.formModalImg {
+  position: relative;
+  z-index: 2;
+}
+
+.formModal-sec .modal-body .form-control {
+  background-color: transparent;
+  color: #fff;
+}
+.formModal-sec .modal-body .form-control::placeholder {
+  color: #fff;
+}
+
+.formModal-formContent-circle {
+  position: absolute;
+  width: 490px;
+  height: 480px;
+  background-color: transparent;
+  bottom: -80px;
+  left: -80px;
+  border-radius: 50%;
+  border: 2px solid #031243;
+  padding: 8px;
+  overflow: hidden;
+  z-index: 1;
+}
+.formModal-formContent-circle-1 {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  padding: 7px;
+  border: 1px solid #031243;
+}
+.formModal-formContent-circle-2 {
+  /* background-color: #fff; */
+  background: transparent linear-gradient(210deg, #0504a5 0%, #b0b0e5 100%)
+    no-repeat 0% 0% padding-box;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+@media (max-width: 991px) {
+  .formModal-imgDiv {
+    display: none;
+  }
+}

@@ -1,0 +1,33 @@
+.OurWork {
+  background: #031243;
+  padding: 60px 0;
+  color: #fff;
+  overflow: hidden;
+}
+
+.OurWork-content h1 {
+  font-size: 70px;
+}
+.OurWork-content p {
+  font-size: 18px;
+  max-width: 360px;
+}
+
+@media (max-width: 991px) {
+  .OurWork-content p {
+    font-size: 16px;
+    max-width: unset;
+  }
+  .OurWork-content {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .OurWork-content h1 {
+    font-size: 50px;
+  }
+  .OurWork {
+    padding: 30px 0;
+  }
+}

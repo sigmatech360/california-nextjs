@@ -1,0 +1,67 @@
+.RefundPolicy {
+  background-color: #0504a5;
+  color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.RefundPolicy-content * {
+  margin: 0;
+}
+.RefundPolicy-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 35px;
+}
+.RefundPolicy-content h3 {
+  font-size: 35px;
+  line-height: 1;
+}
+.RefundPolicy-content p {
+  font-size: 16px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.rf-pay-logos {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.paymentway {
+  background-color: white;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 120px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.paymentway img {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .RefundPolicy {
+    padding: 30px 0;
+  }
+  .paymentway {
+    height: 60px;
+    width: 100px;
+  }
+}
+
+@media (max-width: 430px) {
+  .RefundPolicy-content h3 {
+    font-size: 28px;
+  }
+  .paymentway {
+    height: 80px;
+    width: 120px;
+  }
+}

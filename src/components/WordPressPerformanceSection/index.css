@@ -1,0 +1,51 @@
+.WordPressPerformanceSection {
+  margin: 60px 0;
+  overflow: hidden;
+}
+.WordPressPerformanceSection .title {
+  font-weight: 500;
+  font-size: 50px;
+  max-width: 560px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.WordPressPerformanceSection .title span {
+  color: #0504a5;
+}
+
+.WordPressPerformanceSection p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 1199px) {
+  .WordPressPerformanceSection p {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+  .WordPressPerformanceSection .title {
+    font-size: 39px;
+    max-width: unset;
+  }
+}
+
+@media (max-width: 991px) {
+  .WordPressPerformanceSection {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .WordPressPerformanceSection {
+    margin: 30px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .WordPressPerformanceSection .title {
+      font-size: 34px;
+      max-width: unset;
+  }
+}

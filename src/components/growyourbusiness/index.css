@@ -1,0 +1,75 @@
+.gorwyourbusiness {
+  background-color: #0504a5;
+  padding: 40px 20px;
+  color: white;
+  font-family: "Outfit", sans-serif !important;
+  overflow: hidden;
+}
+
+.gorwyourbusiness .title {
+  font-size: 2.5rem;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+.gorwyourbusiness .title span {
+  font-weight: 500;
+}
+
+.gorwyourbusiness .clickhere {
+  padding: 12px 30px;
+  border-radius: 45px;
+  color: #0504a5;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  white-space: nowrap;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.gorwyourbusiness .clickhere:hover {
+  background-color: #f9c74f;
+  color: #0504a5;
+}
+
+/* Responsive Design */
+
+@media (max-width: 1199px) {
+  .gorwyourbusiness .title {
+    font-size: 2rem;
+  }
+  .gorwyourbusiness {
+    padding: 30px 15px;
+  }
+  .gorwyourbusiness .clickhere {
+    font-size: 0.9rem;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+  .gorwyourbusiness {
+    padding: 20px 10px;
+  }
+
+  .gorwyourbusiness .title {
+    font-size: 1.8rem;
+  }
+
+  .gorwyourbusiness .clickhere {
+    font-size: 0.875rem;
+    padding: 10px 25px;
+  }
+}
+
+/* Extra Small Devices (Phones under 600px) */
+@media (max-width: 767px) {
+  .gorwyourbusiness .title {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+}

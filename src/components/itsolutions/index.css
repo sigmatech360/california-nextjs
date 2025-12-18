@@ -1,0 +1,230 @@
+.itSolutions {
+  padding: 60px 0;
+  overflow: hidden;
+  /* background: transparent linear-gradient(180deg, #f5f5f5 0%, #d4d4ff 100%) 0%
+    0% no-repeat padding-box; */
+  background: #00000000 linear-gradient(180deg, #ebebff 0%, #d4d4ff 100%) 0% 0%
+    no-repeat padding-box;
+  border-radius: 50px 50px 0px 0px;
+  opacity: 1;
+}
+
+.itSolutions .title {
+  font-size: 61px;
+  line-height: 1.2;
+  font-weight: 500;
+  font-family: "Outfit", sans-serif !important;
+}
+
+.itSolutions .title span {
+  color: #0504a5;
+}
+.itSolutions .para {
+  letter-spacing: 0px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #0504a5;
+  font-family: "Outfit", sans-serif !important;
+}
+
+.itSolutions .featuredbtn {
+  color: white;
+  border: none;
+  background-color: #0504a5;
+  padding: 10px 29px;
+  border-radius: 30px;
+}
+
+.itSolutions .viewdbtn {
+  color: white;
+
+  width: 14%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border: none;
+  background-color: #0504a5;
+  padding: 10px 29px;
+  border-radius: 30px;
+}
+
+.itSolutions .projectpara {
+  font-size: 18px;
+  line-height: 20px;
+  color: #031243;
+}
+.mission-statment-content {
+  position: relative;
+  z-index: 3;
+}
+
+.itSolutions .para2 {
+  color: #031243;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.itSolutions .para3 {
+  font-weight: 400;
+  color: #031243;
+  font-weight: 500;
+  max-width: 80%;
+}
+
+.checkicon {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #0504a5;
+  font-size: 1.2rem;
+  vertical-align: baseline;
+}
+
+.itSolutions .learnmore {
+  border: none;
+  background-color: #0504a5;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 45px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.itSolutions .learnmore:hover{
+  background-color: #f9c74f;
+  color: #0504a5;
+}
+
+.itSolutions .para4 {
+  font-weight: 400 !important;
+  color: #031243 !important;
+  vertical-align: baseline !important;
+  display: contents;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.missionstatementbtn {
+  border: none;
+  background-color: #0504a5;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 45px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.missionstatementbtn:hover{
+  background-color: #f9c74f;
+  color: #0504a5;
+}
+
+.itSolutions-list {
+  margin-top: 16px;
+}
+
+.missionstatementpara {
+  font-family: "Outfit";
+  font-size: 17px;
+}
+
+.missionstatement {
+  font-size: 50px;
+  font-weight: 600;
+}
+.learnmorecall {
+  border: none;
+  background-color: #0504a5;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.mission-statement-imgs {
+  position: relative;
+}
+.mission-before-img {
+  position: absolute;
+  z-index: 1;
+  max-width: 300px;
+  top: -30%;
+  left: 0;
+}
+.mission-img-front {
+  position: relative;
+  z-index: 2;
+  transform: scale(1.2);
+}
+
+@media (max-width: 1399px) {
+  .itSolutions .title {
+    font-size: 50px;
+  }
+  .itSolutions .para2 {
+    font-size: 16px;
+  }
+  .itSolutions .para4 {
+    font-size: 16px;
+  }
+  .missionstatementpara {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .itSolutions .title {
+    font-size: 42px;
+  }
+  .itSolutions .para2 {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .itSolutions .para4 {
+    font-size: 15px;
+  }
+  .mission-before-img {
+    max-width: 140px;
+    top: -20%;
+  }
+  .missionstatementpara {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .mission-img-front {
+    transform: scale(1);
+  }
+  .mission-before-img {
+    max-width: 50%;
+  }
+  .mission-statment-content {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .itSolutions .title {
+    font-size: 35px;
+  }
+  .missionstatement {
+    font-size: 41px;
+  }
+}
+
+@media (max-width: 430px) {
+  .itSolutions .title {
+    font-size: 33px;
+  }
+  .missionstatement {
+    font-size: 38px;
+  }
+}
