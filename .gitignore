@@ -19,10 +19,8 @@
 
 # production
 /build
-
-# misc
-.DS_Store
-*.pem
+california-nextjs.zip
+deploy-setup.txt
 
 # debug
 npm-debug.log*
