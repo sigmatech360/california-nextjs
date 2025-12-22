@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   // output: 'standalone',
-  // experimental: { appDir: true },
+  experimental: { appDir: true },
   swcMinify: true,
   compress: true,
   // Optimize production builds
