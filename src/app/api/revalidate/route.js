@@ -7,7 +7,7 @@ export async function POST(req) {
     const { secret, slug, categorySlug } = body;
 
     // 🔐 Security check
-    if (secret !== process.env.NEXT_PUBLIC_REVALIDATE_SECRET) {
+    if (secret !== process.env.REVALIDATE_SECRET) {
       return NextResponse.json(
         { message: "Invalid token" },
         { status: 401 }
