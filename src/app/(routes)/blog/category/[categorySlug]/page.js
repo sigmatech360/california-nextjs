@@ -1,5 +1,5 @@
-// export const revalidate = 60;
-export const revalidate = 0;
+export const revalidate = 3600;
+// export const revalidate = 0;
 
 import CategoryPage from "@/src/Screen/CategoryPage";
 
