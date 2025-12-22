@@ -1,4 +1,4 @@
-export const revalidate = 60;
+export const revalidate = 300;
 
 import NewsandTrends from '@/src/Screen/newsandtrends';
 
